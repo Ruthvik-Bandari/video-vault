@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Search, Play, Clock, Loader2, Film, Sparkles } from 'lucide-react';
 
 // API Configuration - Update this if your backend runs on a different port
-const API_BASE_URL = 'http://localhost:8080/api';
+const API_BASE_URL = 'https://video-vault-api.onrender.com/api';
 
 // Starry background component
 const StarryBackground = () => {
